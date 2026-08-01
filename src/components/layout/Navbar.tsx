@@ -52,8 +52,7 @@ export function Navbar() {
                 <a
                   href={profile.resumeHref}
                   className="nav__link nav__resume"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  download
                 >
                   Resume
                 </a>
@@ -83,8 +82,7 @@ export function Navbar() {
             <a
               href={profile.resumeHref}
               className="nav__panel-link"
-              target="_blank"
-              rel="noreferrer noopener"
+              download
               onClick={() => setOpen(false)}
             >
               Resume

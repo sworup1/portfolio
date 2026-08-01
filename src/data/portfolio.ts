@@ -71,7 +71,7 @@ export const profile = {
   ],
   location: 'Pokhara, Nepal',
   email: 'sworup.job@gmail.com',
-  resumeHref: 'https://example.com/resume.pdf',
+  resumeHref: '/asset/Sworup-resume.pdf',
 } satisfies Profile
 
 export const navItems: NavItem[] = [
